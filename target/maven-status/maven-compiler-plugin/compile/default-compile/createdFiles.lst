@@ -1,0 +1,10 @@
+org\rentgameapi\dao\MyDataSourceFactory.class
+com\rentgame\querydsl\QGamerental.class
+org\rentgameapi\dao\CrearQueryTypes.class
+com\rentgame\querydsl\QGame.class
+com\rentgame\querydsl\QRental.class
+org\rentgameapi\dao\Configuracion.class
+org\rentgameapi\api\ApplicationConfig.class
+com\rentgame\querydsl\QClient.class
+org\rentgameapi\api\ClientResource.class
+org\rentgameapi\pojos\Client.class
