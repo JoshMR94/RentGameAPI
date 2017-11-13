@@ -1,4 +1,4 @@
-package com.rentgame.querydsl;
+package org.rentgameapi.querydsl;
 
 import static com.querydsl.core.types.PathMetadataFactory.*;
 
@@ -20,7 +20,7 @@ import java.sql.Types;
 @Generated("com.querydsl.sql.codegen.MetaDataSerializer")
 public class QClient extends com.querydsl.sql.RelationalPathBase<QClient> {
 
-    private static final long serialVersionUID = -1609453255;
+    private static final long serialVersionUID = 589315532;
 
     public static final QClient client = new QClient("client");
 
@@ -33,8 +33,6 @@ public class QClient extends com.querydsl.sql.RelationalPathBase<QClient> {
     public final StringPath name = createString("name");
 
     public final com.querydsl.sql.PrimaryKey<QClient> primary = createPrimaryKey(id);
-
-    public final com.querydsl.sql.ForeignKey<QRental> _rentalIbfk1 = createInvForeignKey(id, "clientId");
 
     public QClient(String variable) {
         super(QClient.class, forVariable(variable), "null", "client");
@@ -57,10 +55,10 @@ public class QClient extends com.querydsl.sql.RelationalPathBase<QClient> {
     }
 
     public void addMetadata() {
-        addMetadata(birthDate, ColumnMetadata.named("birthDate").withIndex(3).ofType(Types.DATE).withSize(10).notNull());
-        addMetadata(dni, ColumnMetadata.named("dni").withIndex(4).ofType(Types.VARCHAR).withSize(9).notNull());
+        addMetadata(birthDate, ColumnMetadata.named("birth_date").withIndex(4).ofType(Types.DATE).withSize(10));
+        addMetadata(dni, ColumnMetadata.named("dni").withIndex(2).ofType(Types.VARCHAR).withSize(9).notNull());
         addMetadata(id, ColumnMetadata.named("id").withIndex(1).ofType(Types.INTEGER).withSize(10).notNull());
-        addMetadata(name, ColumnMetadata.named("name").withIndex(2).ofType(Types.VARCHAR).withSize(50).notNull());
+        addMetadata(name, ColumnMetadata.named("name").withIndex(3).ofType(Types.VARCHAR).withSize(50).notNull());
     }
 
 }

@@ -155,7 +155,7 @@
                     <jdbcUrl>jdbc:mysql://localhost:3306/rentgame</jdbcUrl>
                     <jdbcUser>root</jdbcUser>
                     <jdbcPassword></jdbcPassword>
-                    <packageName>com.rentgame.querydsl</packageName>
+                    <packageName>org.rentgameapi.querydsl</packageName>
                     <targetFolder>${project.basedir}/target/generated-sources/java</targetFolder>
 	        </configuration>
 	        <dependencies>

@@ -1,10 +1,7 @@
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\pojos\Client.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\target\generated-sources\java\com\rentgame\querydsl\QClient.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\target\generated-sources\java\com\rentgame\querydsl\QRental.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\dao\Configuracion.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\api\ClientResource.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\api\ApplicationConfig.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\dao\CrearQueryTypes.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\target\generated-sources\java\com\rentgame\querydsl\QGamerental.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\src\main\java\org\rentgameapi\dao\MyDataSourceFactory.java
-C:\src\DAM\ProyectoRentGame\RentGameAPI\target\generated-sources\java\com\rentgame\querydsl\QGame.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\dao\MyDataSourceFactory.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\pojos\Client.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\dao\CrearQueryTypes.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\api\ApplicationConfig.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\dao\Configuracion.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\src\main\java\org\rentgameapi\api\ClientResource.java
+C:\src\ProyectoRentGame\RentGameAPIQueryDSL\RentGameAPI\target\generated-sources\java\org\rentgameapi\querydsl\QClient.java

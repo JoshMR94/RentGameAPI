@@ -21,8 +21,9 @@ public class MyDataSourceFactory {
             MysqlDataSource mysqlDS = null;
             
             try {
-                
-                fis = new FileInputStream("C:\\src\\DAM\\ProyectoRentGame\\RentGameAPI\\src\\main\\java\\org\\rentgameapi\\dao\\db.properties");
+                System.out.println("antes del properties");
+                fis = new FileInputStream("C:\\src\\ProyectoRentGame\\RentGameAPIQueryDSL\\RentGameAPI\\src\\main\\java\\org\\rentgameapi\\dao\\db.properties");
+                System.out.println("despues del properties");
                 props.load(fis);
                 mysqlDS = new MysqlDataSource();
                 mysqlDS.setURL(props.getProperty("MYSQL_DB_URL"));

@@ -18,8 +18,10 @@ public class CrearQueryTypes {
         try {
             //System.out.println(dataSource.getConnection());
             conn = dataSource.getConnection();
+            System.out.println("antes del metadata");
             MetaDataExporter exporter = new MetaDataExporter();
-            exporter.setPackageName("org.rentameapi.querydsl");
+            System.out.println("despues del metadata");
+            exporter.setPackageName("org.rentgameapi.querydsl");
             exporter.setTargetFolder(new File("target/generated-sources/java"));
             exporter.export(conn.getMetaData());
 

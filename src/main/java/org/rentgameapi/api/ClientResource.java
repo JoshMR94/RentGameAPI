@@ -7,7 +7,7 @@ package org.rentgameapi.api;
 
 import com.querydsl.sql.Configuration;
 import com.querydsl.sql.SQLQueryFactory;
-import com.rentgame.querydsl.QClient;
+import org.rentgameapi.querydsl.QClient;
 import java.util.List;
 import javax.sql.DataSource;
 import javax.ws.rs.core.Context;
@@ -50,7 +50,7 @@ public class ClientResource {
     @Path("/test")
     @Produces(MediaType.TEXT_PLAIN)
     public String getPrueba() {
-        return "It works";
+        return "It works!";
     }
     
     @GET
